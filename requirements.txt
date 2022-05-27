@@ -1,0 +1,73 @@
+absl-py==0.14.1
+aniso8601==9.0.1
+apyori==1.1.2
+brotlipy==0.7.0
+cachetools==4.2.4
+certifi==2021.5.30
+cffi @ file:///C:/ci/cffi_1625831756778/work
+chardet @ file:///C:/ci/chardet_1607706937985/work
+click==8.0.3
+colorama==0.4.4
+conda==4.10.3
+conda-package-handling @ file:///C:/ci/conda-package-handling_1618262410900/work
+cryptography @ file:///C:/ci/cryptography_1616769504165/work
+cycler==0.10.0
+Cython==0.29.24
+fire==0.4.0
+Flask==2.0.2
+Flask-RESTful==0.3.9
+google-auth==1.35.0
+google-auth-oauthlib==0.4.6
+grpcio==1.41.0
+idna @ file:///home/linux1/recipes/ci/idna_1610986105248/work
+itsdangerous==2.0.1
+Jinja2==3.0.3
+kiwisolver==1.3.2
+kornia==0.5.11
+Markdown==3.3.4
+MarkupSafe==2.0.1
+matplotlib==3.4.3
+menuinst==1.4.16
+mysql-connector-python==8.0.29
+numpy==1.21.2
+oauthlib==3.1.1
+opencv-python==4.5.3.56
+packaging==21.0
+pandas==1.3.3
+Pillow==8.3.2
+protobuf==3.18.1
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycocotools==2.0.2
+pycosat==0.6.3
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1608057966937/work
+pyparsing==2.4.7
+pypiwin32==223
+PySocks @ file:///C:/ci/pysocks_1605307512533/work
+python-dateutil==2.8.2
+pytz==2021.3
+pywin32==228
+PyYAML==5.4.1
+requests @ file:///tmp/build/80754af9/requests_1608241421344/work
+requests-oauthlib==1.3.0
+rsa==4.7.2
+ruamel-yaml-conda @ file:///C:/ci/ruamel_yaml_1616016898638/work
+scipy==1.7.1
+seaborn==0.11.2
+six @ file:///tmp/build/80754af9/six_1623709665295/work
+tensorboard==2.6.0
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.0
+termcolor==1.1.0
+thop==0.0.31.post2005241907
+timm==0.4.12
+torch==1.9.1
+torchvision==0.10.1
+tqdm @ file:///tmp/build/80754af9/tqdm_1625563689033/work
+typing-extensions==3.10.0.2
+urllib3 @ file:///tmp/build/80754af9/urllib3_1625084269274/work
+Werkzeug==2.0.2
+win-inet-pton @ file:///C:/ci/win_inet_pton_1605306162074/work
+wincertstore==0.2
+yolov5==6.0.4
