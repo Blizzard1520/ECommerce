@@ -1,6 +1,7 @@
+from django.core.checks.messages import Error
 from django.db import models
-from django.contrib.auth.models import AbstractBaseUser
-from django.contrib.auth.models import BaseUserManager
+from django.contrib.auth.models import AbstractBaseUser, BaseUserManager
+
 
 class MyAccountManager(BaseUserManager):
     def create_user(self, first_name, last_name, username, email, password=None):
@@ -16,6 +17,7 @@ class MyAccountManager(BaseUserManager):
             username=username,
             first_name=first_name,
             last_name=last_name,
+            is_staff=True,
         )
 
         user.set_password(password)
@@ -36,6 +38,7 @@ class MyAccountManager(BaseUserManager):
         user.is_superadmin = True
         user.save(using=self._db)
         return user
+
 
 class Account(AbstractBaseUser):
     first_name = models.CharField(max_length=50)
@@ -65,3 +68,6 @@ class Account(AbstractBaseUser):
 
     def has_module_perms(self, add_label):
         return True
+
+    def full_name(self):
+        return self.first_name + " " + self.last_name
